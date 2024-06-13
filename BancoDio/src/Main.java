@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         Banco banco = new Banco();
-        banco.setNome("Banco DIO");
+        banco.setNome("BANCO DIO");
+       System.out.println(banco.getNome()+":::::::::::::::::::");
 
         Cliente c1 = new Cliente();
         c1.setNome("Debora");
